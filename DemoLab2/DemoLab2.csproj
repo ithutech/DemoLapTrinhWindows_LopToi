@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D66F470-5CE0-4503-A40A-3D5EF9D3038D}</ProjectGuid>
+    <ProjectGuid>{B68E5166-AA18-44CF-86CD-195CA9F5FE9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DemoConsoleApp</RootNamespace>
-    <AssemblyName>DemoConsoleApp</AssemblyName>
+    <RootNamespace>DemoLab2</RootNamespace>
+    <AssemblyName>DemoLab2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
     <Compile Include="Tester.cs" />
   </ItemGroup>
   <ItemGroup>
