@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoConsoleApp", "DemoConso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLab2", "DemoLab2\DemoLab2.csproj", "{B68E5166-AA18-44CF-86CD-195CA9F5FE9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoUDWindowsForm", "DemoUDWindowsForm\DemoUDWindowsForm.csproj", "{62DB4206-E459-48A2-9E7A-2F24E9BEF978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B68E5166-AA18-44CF-86CD-195CA9F5FE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68E5166-AA18-44CF-86CD-195CA9F5FE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68E5166-AA18-44CF-86CD-195CA9F5FE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DB4206-E459-48A2-9E7A-2F24E9BEF978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DB4206-E459-48A2-9E7A-2F24E9BEF978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DB4206-E459-48A2-9E7A-2F24E9BEF978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DB4206-E459-48A2-9E7A-2F24E9BEF978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

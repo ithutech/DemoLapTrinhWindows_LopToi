@@ -18,8 +18,7 @@ namespace DemoLab2
         {
             Console.Write("Teacher Id = ");
             this.Id = int.Parse(Console.ReadLine());
-            Console.Write("Teacher Name = ");
-            this.FullName = Console.ReadLine();
+            base.Input();
             Console.Write("Teacher Address = ");
             this.Address = Console.ReadLine();
         }
@@ -27,7 +26,7 @@ namespace DemoLab2
         public override void Output()
         {
             Console.WriteLine("Teacher Id = {0}", this.Id);
-            Console.WriteLine("Teacher Name = {0}", this.FullName);
+            base.Output();
             Console.WriteLine("Teacher Address = {0}", this.Address);
         }
     }

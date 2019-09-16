@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace DemoLab2
 {
-    abstract class Person
+    class Person
     {
         public string FullName { get; set; }
-        public abstract void Input();
-        public abstract void Output();
+        public virtual void Input()
+        {
+            Console.Write("Name = ");
+            this.FullName = Console.ReadLine();
+        }
+        public virtual void Output()
+        {
+            Console.WriteLine("Name = {0}", this.FullName);
+        }
     }
 }
