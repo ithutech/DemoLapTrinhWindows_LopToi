@@ -16,7 +16,7 @@ namespace DemoUDWindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDangKyMonHoc());
+            Application.Run(new frmDatVeOnline());
         }
     }
 }
