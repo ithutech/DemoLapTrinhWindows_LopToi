@@ -72,13 +72,11 @@ namespace DemoUDWindowsForm
             KhachHang kh = new KhachHang();
             kh.TenKH = txtHoTen.Text;
             dbContext.KhachHangs.Add(kh);
-            dbContext.SaveChanges();
             //b2. Tao hoa don 
             HoaDon hd = new HoaDon();
             hd.MaKH = kh.MaKH;
             hd.Ngay = DateTime.Now;
             dbContext.HoaDons.Add(hd);
-            dbContext.SaveChanges();
             //b3. Tao chi tiet hoa don va cap nhat trang thai nut
             ChiTietHoaDon cthd;
             foreach (var ve in danhSachChon)
